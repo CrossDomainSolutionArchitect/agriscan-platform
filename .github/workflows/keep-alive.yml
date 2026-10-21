@@ -1,0 +1,14 @@
+name: Keep Hugging Face Space Awake
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Runs every 6 hours
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  ping_space:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping AgriScan Demo Space
+        run: |
+          curl -s --max-time 60 https://huggingface.co/spaces/Vernard/agriscan-ai-demo > /dev/null
+          echo "Space pinged successfully."
