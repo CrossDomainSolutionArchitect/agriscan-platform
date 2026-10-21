@@ -7,7 +7,7 @@ AgriScan is a mobile-first, AI-powered platform designed to assist smallholder f
 ## 🔬 Project Overview
 This repository contains the prototype developed under the **Grassroots Innovation Programme (GIP)** of the Technology Innovation Agency (TIA).
 
-- **AI Engine:** A CNN trained on the PlantVillage dataset (≥90% accuracy), hosted on [Hugging Face](https://huggingface.co/Vernard/agriscan-ai-demo).
+- **AI Engine:** A CNN trained on the PlantVillage dataset (≥90% accuracy), hosted on [Hugging Face]([https://huggingface.co/Vernard/agriscan-ai-demo](https://huggingface.co/spaces/Vernard/agriscan-ai-demo)).
 - **Core Modules:** Disease Detection, Soil Analysis, Micro-Learning.
 - **Architecture:** Ephemeral image processing (POPIA compliant), responsible AI layer (IBM AIF360), multi-channel API.
 
